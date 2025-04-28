@@ -1,0 +1,102 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    background: #333;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a, nav ul li button {
+    color: white;
+    text-decoration: none;
+    background: none;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  nav ul li a:hover, nav ul li button:hover {
+    filter: brightness(80%);
+  }
+  
+  /* Sections */
+  section {
+    padding: 80px 20px;
+    min-height: 100vh;
+  }
+  
+  #hero {
+    background: #f4f4f4;
+  }
+  
+  #about {
+    background: #e4e4e4;
+  }
+  
+  #skills {
+    background: #d4d4d4;
+  }
+  
+  #projects {
+    background: #c4c4c4;
+  }
+  
+  #contact {
+    background: #b4b4b4;
+  }
+  
+  /* Buttons */
+  .btn {
+    background-color: #19AB5C;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .btn:hover {
+    filter: brightness(80%);
+  }
+  
+  /* Project Page */
+  .back-home {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .back-home a {
+    text-decoration: underline;
+    color: #19AB5C;
+    font-size: 18px;
+  }
+  
+  .scroll-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background: #19AB5C;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .scroll-top:hover {
+    filter: brightness(80%);
+  }
+  
